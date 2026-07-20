@@ -9,4 +9,4 @@ const development = {
   dialect: process.env.DB_DIALECT
 }
 
-modules.exports = ( development );
+module.exports = {development};
